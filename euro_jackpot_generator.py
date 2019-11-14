@@ -4,8 +4,8 @@ def eurojackpot_generator(how_much_field_to_play = 1,
                             with_field_display = "yes"):
     
     """
-    Generates 5 random lottery numbers from 1 to 50 
-    and 2 random euro numbers
+    Generates 5 random lottery numbers choose from 1 to 50 
+    and 2 random euro numbers choose from 1 to 10
 
     Keyword arguments:
 
@@ -60,4 +60,4 @@ def eurojackpot_generator(how_much_field_to_play = 1,
 
         print()
 
-eurojackpot_generator(8)
+eurojackpot_generator()
