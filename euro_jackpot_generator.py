@@ -5,7 +5,7 @@ def eurojackpot_generator(how_much_field_to_play = 1,
     
     """
     Generates 5 random lottery numbers choose from 1 to 50 
-    and 2 random euro numbers choose from 1 to 10
+    and 2 random euro numbers choose from 1 to 10 and outputs them
 
     Keyword arguments:
 
@@ -22,7 +22,7 @@ def eurojackpot_generator(how_much_field_to_play = 1,
         numbers_to_50 = list(range(1,51))
         euro_numbers = list(range(1,11))
 
-        # Creates lists with random picked numbers from list above
+        # Create lists with random picked numbers from lists above
 
         final_numbers = [numbers_to_50.pop(numbers_to_50.index(random.choice(numbers_to_50))) for _ in range(5)]
         final_euro_numbers = [euro_numbers.pop(euro_numbers.index(random.choice(euro_numbers))) for _ in range(2)]
